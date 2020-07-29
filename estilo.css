@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.title {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    /* grid-template-rows: 100vh; */
+  
+    
+    
+}
+.grid-subUno {
+  background-color: red; 
+  color: white;
+  margin-left: 10px;
+}
+
+/* .grid-character {
+    border: 1px solid black;
+} */
+.grid-subDos {
+    align-self: flex-end;
+    margin-right: 10px;
+    /* background-color: rgba(0, 0, 255, 0.897); */
+}
+.subUno {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 150px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 50px;
+   
+}
+.titleCharacter {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+.subDos {
+    writing-mode: vertical-rl;
+    font-size: 150px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 50px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+img {
+    width: 20%;
+    height: 300px;
+    border-radius: 8%;
+    display: block;
+    margin: auto;
+}
+
+.titleNombre {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+.nombre {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+}
+.buscar {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+   
+
+ 
+}
+
+.btn {
+    text-align: center;
+    display: block;
+    margin: auto;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+    width: 100px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
